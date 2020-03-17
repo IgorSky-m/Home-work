@@ -12,8 +12,9 @@ package edu.academy;
 public class Main {
 
     public static void main(String[] args) {
-        float calcResult;
+        double calcResult;
         CalculatorWithOperator calc = new CalculatorWithOperator();
-        int result = calc.calcExp(5,10);
+        calcResult = calc.calcSumm( calc.calcSumm( 4.1,calc.calcMult(15,7)),calc.calcExp(calc.calcDiv(28,5),2));
+        System.out.println(calcResult);
     }
 }
