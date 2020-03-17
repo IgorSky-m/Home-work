@@ -20,25 +20,25 @@ public class Color {
     public String getColorName() {
         String colorName;
         switch (colorNumber) {
-            case 1:
+            case RED:
                 colorName = "Красный";
                 break;
-            case 2:
+            case ORANGE:
                 colorName = "Оранжевый";
                 break;
-            case 3:
+            case YELLOW:
                 colorName = "Желтый";
                 break;
-            case 4:
+            case GREEN:
                 colorName = "Зеленый";
                 break;
-            case 5:
+            case BLUE:
                 colorName = "Голубой";
                 break;
-            case 6:
+            case INDIGO:
                 colorName = "Синий";
                 break;
-            case 7:
+            case VIOLET:
                 colorName = "Фиолетовый";
                 break;
             default:
