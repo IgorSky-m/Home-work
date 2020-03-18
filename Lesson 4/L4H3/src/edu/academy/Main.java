@@ -16,5 +16,8 @@ public class Main {
         CalculatorWithOperator calc = new CalculatorWithOperator();
         calcResult = calc.calcSumm( calc.calcSumm( 4.1,calc.calcMult(15,7)),calc.calcExp(calc.calcDiv(28,5),2));
         System.out.println(calcResult);
+
+        double rez = calc.sqrt(90);
+        System.out.println(rez);
     }
 }
