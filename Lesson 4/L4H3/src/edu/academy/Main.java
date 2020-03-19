@@ -13,11 +13,22 @@ public class Main {
 
     public static void main(String[] args) {
         double calcResult;
+        double calcResultMath;
         CalculatorWithOperator calc = new CalculatorWithOperator();
-        calcResult = calc.calcSumm( calc.calcSumm( 4.1,calc.calcMult(15,7)),calc.calcExp(calc.calcDiv(28,5),2));
-        System.out.println(calcResult);
+        CalculatorWithMath calcMath = new CalculatorWithMath();
 
-        double rez = calc.sqrt(90);
-        System.out.println(rez);
+        //----------------------CalculatioWithOperator--------------------------------------------------------
+        calcResult = calc.summ( calc.summ( 4.1,calc.mult(15,7)),calc.pow(calc.div(28,5),2));
+        System.out.println("Результат выражения равен " +calcResult);
+        calcResult = (calc.summ( calc.summ( 4.1,calc.mult(15,7)),calc.pow(calc.div(28,5),2)))/0;
+        System.out.println("Результат деления calcResult на 0 равен " +calcResult);//Infinity
+
+        //--------------------CalculatorWithMath--------------------------------------------------------------
+        calcResultMath = calcMath.summ( calcMath.summ( 4.1,calcMath.mult(15,7)),calcMath.pow(calcMath.div(28,5),2));
+        System.out.println("Результат выражения равен " +calcResultMath);
+        calcResultMath = (calcMath.summ( calcMath.summ( 4.1,calcMath.mult(15,7)),calcMath.pow(calcMath.div(28,5),2)))/0;
+        System.out.println("Результат деления calcResult на 0 равен " +calcResultMath);//Infinity
+
+
     }
 }

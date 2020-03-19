@@ -2,38 +2,38 @@ package edu.academy;
 
 
 public class CalculatorWithOperator {
-    private double resultExp = 1;
+    private double resultPow = 1;
     private double resultAbs;
     private double resultSqrt;
 
-    public double calcSumm(double a, double b) {
+    public double summ(double a, double b) {
         double result = a + b;
         return result;
     }
-    public double calcSub(double a, double b) {
+    public double sub(double a, double b) {
         double result = a - b;
         return result;
     }
-    public double calcMult(double a, double b) {
+    public double mult(double a, double b) {
         double result = a * b;
         return result;
     }
-    public double calcDiv(double a, double b) {
+    public double div(double a, double b) {
         double result = a / b;
         return result;
     }
 
-    public double calcExp(double a, int b) {
+    public double pow(double a, int b) {
         int i = 0;
-
+        int result;
         while (i < b) {
-            resultExp *= a;
+            resultPow *= a;
             i++;
         }
-        return resultExp;
+        return resultPow;
     }
 
-    public double calcAbs (double a) {
+    public double abs (double a) {
         if (a < 0){
             resultAbs = a*(-1);
         } else {
