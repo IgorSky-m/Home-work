@@ -2,14 +2,13 @@ package edu.academy;
 
 
 public class CalculatorWithOperator {
-    private double resultPow = 1;
-    private double resultAbs;
-    private double resultSqrt;
 
     public double summ(double a, double b) {
         double result = a + b;
         return result;
     }
+
+
     public double sub(double a, double b) {
         double result = a - b;
         return result;
@@ -24,8 +23,8 @@ public class CalculatorWithOperator {
     }
 
     public double pow(double a, int b) {
+        double resultPow = 1;
         int i = 0;
-        int result;
         while (i < b) {
             resultPow *= a;
             i++;
@@ -34,6 +33,7 @@ public class CalculatorWithOperator {
     }
 
     public double abs (double a) {
+        double resultAbs;
         if (a < 0){
             resultAbs = a*(-1);
         } else {
@@ -44,6 +44,7 @@ public class CalculatorWithOperator {
 
 
     public double sqrt(double a) {
+        double resultSqrt;
         double minNum = 0;
         double maxNum = a;
         double centerNum;
