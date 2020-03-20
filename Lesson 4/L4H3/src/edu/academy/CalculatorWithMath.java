@@ -1,6 +1,6 @@
 package edu.academy;
 
-public class CalculatorWithMath {
+public class CalculatorWithMath extends ParentCalculator{
 
 
     public double summ(double a, double b) {

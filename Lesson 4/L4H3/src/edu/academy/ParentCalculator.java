@@ -1,7 +1,6 @@
 package edu.academy;
 
-
-public class CalculatorWithOperator extends ParentCalculator{
+public class ParentCalculator {
 
     public double summ(double a, double b) {
         double result = a + b;
@@ -63,12 +62,4 @@ public class CalculatorWithOperator extends ParentCalculator{
 
         return resultSqrt;
     }
-
-
-
-
-
-
-
-
 }

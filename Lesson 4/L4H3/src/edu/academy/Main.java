@@ -25,6 +25,7 @@ public class Main {
         System.out.println("Результат деления calcResult на 0 равен " +calcResult);//Infinity
         calcResult = (calc.summ( calc.summ( 4.1,calc.mult(15,7)),calc.pow(calc.div(28,5),2)))/0.0d;
         System.out.println("Результат деления calcResult на 0.0d равен " +calcResult);//Infinity
+        System.out.println("\n");
 
         //--------------------CalculatorWithMath--------------------------------------------------------------
         System.out.println("CalculatorWithMath-----------------------------------------------------------");
@@ -34,15 +35,16 @@ public class Main {
         System.out.println("Результат деления calcResultMath на 0 равен " +calcResultMath);//Infinity
         calcResultMath = (calcMath.summ( calcMath.summ( 4.1,calcMath.mult(15,7)),calcMath.pow(calcMath.div(28,5),2)))/0.0d;
         System.out.println("Результат деления calcResultMath на 0.0d равен " +calcResultMath);//Infinity
+        System.out.println("\n");
 
-        //--------------------CalculatorWithCounter----------------------------------------------------------
-        System.out.println("CalculatorWithCounter-----------------------------------------------------------");
+        //--------------------CalculatorWithCounter(2 конструктора)----------------------------------------------------------
+        System.out.println("CalculatorWithCounter(2 конструктора)-----------------------------------------------------------");
         CalculatorWithCounter countOperator = new CalculatorWithCounter(calc);
         CalculatorWithCounter countMath = new CalculatorWithCounter(calcMath);
         double CalculatorWithCounterOperator;
         double CalculatorWithCounterMath;
 
-        System.out.println("Counter -> Math");
+        System.out.println("-----------------Counter -> Math");
 
         CalculatorWithCounterMath = countMath.summ( countMath.summ( 4.1,countMath.mult(15,7)),countMath.pow(countMath.div(28,5),2));
         System.out.println("Результат равен " +CalculatorWithCounterMath);
@@ -51,7 +53,8 @@ public class Main {
         CalculatorWithCounterMath = countMath.summ( countMath.summ( 4.1,countMath.mult(15,7)),countMath.pow(countMath.div(28,5),2))/0.0d;
         System.out.println("Результат Деления на 0.0d равен " +CalculatorWithCounterMath);
 
-        System.out.println("Counter -> Operator");
+
+        System.out.println("-----------------Counter -> Operator");
 
         CalculatorWithCounterOperator = countOperator.summ( countOperator.summ( 4.1,countOperator.mult(15,7)),countOperator.pow(countOperator.div(28,5),2));
         System.out.println("Результат равен " +CalculatorWithCounterOperator);
@@ -61,6 +64,34 @@ public class Main {
         System.out.println("Результат Деления на 0.0d равен " +CalculatorWithCounterOperator);
 
         System.out.println("Общее количество операций равно " + CalculatorWithCounter.getCountOperation() );
+        System.out.println("\n");
+
+        //--------------------CalculatorWithCounterEx(1 конструктор)----------------------------------------------------------
+        System.out.println("CalculatorWithCounter(1 конструктор)-----------------------------------------------------------");
+        System.out.println("-----------------CounterEx -> Math");
+        CalculatorWIthCounterEx calcCounter = new CalculatorWIthCounterEx(calcMath);
+        double resultCountExMath;
+
+        resultCountExMath = calcCounter.summ( calcCounter.summ( 4.1,calcCounter.mult(15,7)),calcCounter.pow(calcCounter.div(28,5),2));
+        System.out.println("Результат равен " +resultCountExMath);
+        resultCountExMath = countOperator.summ( countOperator.summ( 4.1,countOperator.mult(15,7)),countOperator.pow(countOperator.div(28,5),2))/0;
+        System.out.println("Результат Деления на 0 равен " +resultCountExMath);
+        resultCountExMath = countOperator.summ( countOperator.summ( 4.1,countOperator.mult(15,7)),countOperator.pow(countOperator.div(28,5),2))/0.0d;
+        System.out.println("Результат Деления на 0.0d равен " +resultCountExMath);
+
+        System.out.println("-----------------CounterEx -> Operation");
+        CalculatorWIthCounterEx calcCounterOperation = new CalculatorWIthCounterEx(calc);
+        double resultCountOperation;
+
+        resultCountOperation = calcCounterOperation.summ( calcCounterOperation.summ( 4.1,calcCounterOperation.mult(15,7)),calcCounterOperation.pow(calcCounterOperation.div(28,5),2));
+        System.out.println("Результат равен " +resultCountOperation);
+        resultCountOperation = calcCounterOperation.summ( calcCounterOperation.summ( 4.1,calcCounterOperation.mult(15,7)),calcCounterOperation.pow(calcCounterOperation.div(28,5),2))/0;
+        System.out.println("Результат Деления на 0 равен " +resultCountOperation);
+        resultCountOperation = calcCounterOperation.summ( calcCounterOperation.summ( 4.1,calcCounterOperation.mult(15,7)),calcCounterOperation.pow(calcCounterOperation.div(28,5),2))/0.0d;
+        System.out.println("Результат Деления на 0.0d равен " +resultCountOperation);
+
+
+
 
     }
 }
