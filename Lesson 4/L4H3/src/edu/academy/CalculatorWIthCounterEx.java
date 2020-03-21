@@ -1,9 +1,9 @@
 package edu.academy;
-// Полиморфизм??
+//Декоратор!
 
 public class CalculatorWIthCounterEx {
     private static int countOperation;
-    ParentCalculator calc;
+    private ParentCalculator calc;
     public CalculatorWIthCounterEx (ParentCalculator calc) {
         this. calc = calc;
     }

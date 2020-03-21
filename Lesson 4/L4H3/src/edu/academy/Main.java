@@ -78,6 +78,7 @@ public class Main {
         System.out.println("Результат Деления на 0 равен " +resultCountExMath);
         resultCountExMath = countOperator.summ( countOperator.summ( 4.1,countOperator.mult(15,7)),countOperator.pow(countOperator.div(28,5),2))/0.0d;
         System.out.println("Результат Деления на 0.0d равен " +resultCountExMath);
+        System.out.println("Количество операций count равно " +calcCounter.getCountOperation());
 
         System.out.println("-----------------CounterEx -> Operation");
         CalculatorWIthCounterEx calcCounterOperation = new CalculatorWIthCounterEx(calc);
@@ -89,6 +90,7 @@ public class Main {
         System.out.println("Результат Деления на 0 равен " +resultCountOperation);
         resultCountOperation = calcCounterOperation.summ( calcCounterOperation.summ( 4.1,calcCounterOperation.mult(15,7)),calcCounterOperation.pow(calcCounterOperation.div(28,5),2))/0.0d;
         System.out.println("Результат Деления на 0.0d равен " +resultCountOperation);
+        System.out.println("Количество операций count равно " +calcCounterOperation.getCountOperation());
 
 
 
