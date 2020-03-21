@@ -1,24 +1,22 @@
-package edu.academy;
+package codingbat.warmup_1;
 
-
-import org.w3c.dom.ls.LSOutput;
 
 import java.util.Scanner;
 
 public class SleepIn {
     private String[][] weekDay = {
-            {"Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье"},
+            {"Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье", "Да", "Нет"},
             {"пн", "вт", "ср", "чт", "пт", "сб", "вс"},
             {"1","2","3","4","5","6","7"},
             {"да", "нет", "yes", "no", "maybe","ага","неа"},
     };
-    private String[] vacation = {"да", "нет", "yes", "no", "maybe","ага","неа"};
+    private String[] vacation = {"да", "нет"};
     private String resultDay;
-    private int dayNumber;
+    private int number;
 
 
 
-    public String sleepInScanner () {
+    public String sleepInScanner () { // возвращает Строковое значениие  + номер дня недели
         Scanner scanDay = new Scanner(System.in);
         int indexStrDay, indexStrVacation;
         boolean daySearch = false, vacationSearch = false;
@@ -36,8 +34,8 @@ public class SleepIn {
                     dayStr = dayStr.toLowerCase();
                     indexStrDay = dayStr.indexOf(day);
                     if (indexStrDay >= 0) {
-                        resultDay = weekDay[i][k];
-                        dayNumber = k+1;
+                        resultDay = weekDay[0][k];
+                        number = k+1;
                         daySearch = true;
                         break;
                     }
@@ -54,7 +52,7 @@ public class SleepIn {
         return resultDay;
     }
 
-    public int getDayNumber(){
-        return dayNumber;
+    public int getNumber(){
+        return number;
     }
 }
