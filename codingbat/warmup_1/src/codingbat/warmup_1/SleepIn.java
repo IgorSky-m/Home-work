@@ -5,18 +5,17 @@ import java.util.Scanner;
 
 public class SleepIn {
     private String[][] weekDay = {
-            {"Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье", "Да", "Нет"},
+            {"Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье", "Да", "Нет", "da", "net"},
             {"пн", "вт", "ср", "чт", "пт", "сб", "вс"},
             {"1","2","3","4","5","6","7"},
-            {"да", "нет", "yes", "no", "maybe","ага","неа"},
     };
-    private String[] vacation = {"да", "нет"};
-    private String resultDay;
-    private int number;
+    private String[] vacation = {"да", "нет", "yes", "no", "maybe","ага","неа"};
+    private String result;
+    private int indexArray;
 
 
 
-    public String sleepInScanner () { // возвращает Строковое значениие  + номер дня недели
+    public String sleepInScanner () { // возвращает Строковое значениие недели
         Scanner scanDay = new Scanner(System.in);
         int indexStrDay, indexStrVacation;
         boolean daySearch = false, vacationSearch = false;
@@ -34,8 +33,8 @@ public class SleepIn {
                     dayStr = dayStr.toLowerCase();
                     indexStrDay = dayStr.indexOf(day);
                     if (indexStrDay >= 0) {
-                        resultDay = weekDay[0][k];
-                        number = k+1;
+                        result = weekDay[0][k];
+                        indexArray = k;
                         daySearch = true;
                         break;
                     }
@@ -49,10 +48,20 @@ public class SleepIn {
                 day = day.toLowerCase();
             }
         }
-        return resultDay;
+        return result;
     }
 
-    public int getNumber(){
-        return number;
+    public int getIndexArray(){
+        return indexArray;
     }
+
+    public boolean sleepIn (boolean weekday, boolean vacation){
+        if (weekday == false || vacation == true){
+            return true;
+        } else return false;
+    }
+
+
+
 }
+
