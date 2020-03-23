@@ -8,5 +8,12 @@ public class Main {
     // 2.2 Факториал
         Factorial resultFact = new Factorial();
         System.out.println(resultFact.factorial(6));
+    // 2.3 Перемножить все цифры числа
+        resultFact.multNumsInNum(2523);
+
+
     }
+
+
+
 }
