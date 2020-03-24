@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="216e3c35-e888-4135-a3d3-ca3666b33234" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/L4H3/edu/academy/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/L4H3/edu/academy/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/academy/CalculatorWIthCounterEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/academy/CalculatorWIthCounterEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/academy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/academy/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +14,7 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -45,6 +43,9 @@
       <recent name="edu.academy" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="edu.academy" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="edu.academy" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
