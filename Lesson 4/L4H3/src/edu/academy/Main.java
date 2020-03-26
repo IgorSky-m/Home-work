@@ -93,6 +93,14 @@ public class Main {
         System.out.println("Количество операций count равно " +calcCounterOperation.getCountOperation());
 
 
+        CalculatorStringExpression test = new CalculatorStringExpression();
+        System.out.println(test.stringConversion("2+ (2+9) * 35-PI"));
+
+        System.out.println();
+
+
+
+
 
 
     }
