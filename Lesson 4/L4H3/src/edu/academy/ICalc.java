@@ -11,7 +11,7 @@ public interface ICalc {
     public double div(double a, double b);
 
 
-    public double pow(double a, int b);
+    public double pow(double a, double b);
 
     public double abs (double a);
 

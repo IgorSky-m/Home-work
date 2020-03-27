@@ -4,7 +4,7 @@ public enum EOperators {
     PLUS("+", 6), MINUS("-",6),MULTIPLICATION("*",5),
     DIVISION("/",5),POWER("^",4),AND("&",10),
     DOUBLE_AND("&&",10), OR("|",12),DOUBLE_OR("||",12),
-    PARENTHESES_OPEN("(",2),PARENTHESES_CLOSE(")",2);
+    PARENTHESES_OPEN("(",1),PARENTHESES_CLOSE(")",2);
 
     String operationSymbol;
     private int priority;

@@ -21,7 +21,7 @@ public class ParentCalculator {
         return result;
     }
 
-    public double pow(double a, int b) {
+    public double pow(double a, double b) {
         double resultPow = 1;
         int i = 0;
         while (i < b) {

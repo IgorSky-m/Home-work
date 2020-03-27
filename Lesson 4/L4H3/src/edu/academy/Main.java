@@ -97,8 +97,8 @@ public class Main {
 
         CalculatorStringExpression test = new CalculatorStringExpression();
         Scanner scan = new Scanner(System.in);
-        String mathScan = scan.nextLine();
-        System.out.println(test.stringConversion(mathScan));
+       // String mathScan = scan.nextLine();
+        System.out.println(test.stringConversion("1+4*3+(2*4)"));
 
 
 

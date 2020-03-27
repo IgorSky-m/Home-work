@@ -1,18 +1,18 @@
 package edu.academy;
 
 public enum ENumbers {
-    ZERO(0,"0"),ONE(1,"1"),TWO(2,"2"),THREE(3,"3"),FOUR(4,"4"),FIVE(5,"5"),SIX(6,"6"),SEVEN(7,"7"),EIGHT(8,"8"),NINE(9,"9");
+    ZERO('0',"0"),ONE('1',"1"),TWO('2',"2"),THREE('3',"3"),FOUR('4',"4"),FIVE('5',"5"),SIX('6',"6"),SEVEN('7',"7"),EIGHT('8',"8"),NINE('9',"9"),POINT('.',".");
 
-    private int numberValue;
+    private char numberValue;
     private String stringValue;
-    ENumbers (int numberValue, String stringValue) {
+    ENumbers (char numberValue, String stringValue) {
         this.numberValue = numberValue;
         this.stringValue = stringValue;
     }
 
 
 
-    public int getNumberValue () {
+    public char getNumberValue () {
         return numberValue;
     }
 
@@ -26,9 +26,10 @@ public enum ENumbers {
 
 
     public static String validNumber (String str) {
-        boolean itsFirstNUmber = true;
+        boolean itsFirstNumber = true;
         String resultString="", workString;
         ENumbers number;
+        int counter=0;
 
         for (int i = 0; i <str.length() ; i++) {
             workString = Character.toString(str.charAt(i));
@@ -43,15 +44,29 @@ public enum ENumbers {
                 case "8":
                 case "9":
                     resultString = resultString.concat(workString);
-                    itsFirstNUmber = false;
+                    itsFirstNumber = false;
                     break;
+                case ".":
+                    if(itsFirstNumber==true) {
+                        return "";
+                    } else {
+                        if (counter>0) {
+                            return "";
+                        } else {
+                            resultString = resultString.concat(workString);
+                            counter++;
+                            break;
+                        }
+                    }
+
                 case "0":
-                    if (itsFirstNUmber == true) {
+                    if (itsFirstNumber == true) {
                         return "";
                     } else {
                         resultString = resultString.concat(workString);
                         break;
                     }
+
                 default:
                     if (resultString.length() >0) {
                         return resultString;
