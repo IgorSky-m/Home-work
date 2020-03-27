@@ -9,6 +9,8 @@ package edu.academy;
 //        сохранив его в переменную. При помощи методов созданного объекта вичислить результат выражения 4.1 + 15 * 7 + (28 / 5) ^ 2.
 //        Результат записать в переменную (определить самый подходящий тип переменной). Вывести сохранённый результат в консоль.
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -94,9 +96,10 @@ public class Main {
 
 
         CalculatorStringExpression test = new CalculatorStringExpression();
-        System.out.println(test.stringConversion("2+ (2+9) * 35-PI"));
+        Scanner scan = new Scanner(System.in);
+        String mathScan = scan.nextLine();
+        System.out.println(test.stringConversion(mathScan));
 
-        System.out.println();
 
 
 

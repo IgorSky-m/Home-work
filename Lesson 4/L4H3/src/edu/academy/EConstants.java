@@ -1,7 +1,7 @@
 package edu.academy;
 
 public enum EConstants {
-    PI(3.14), E(2.72), NULL(0),TEST(17.04);
+    PI(3.14), E(2.72),TEST_CONST(17.04), NO_CONST(0);
 
 
     private double constValue;
@@ -18,9 +18,7 @@ public enum EConstants {
         return valueOf(str.toUpperCase());
     }
 
-    public static int getNameLength (EConstants constants) {
-        return (constants.name().length());
-    }
+
 
     public static EConstants validateConst (String str) {
         String string=str;
@@ -29,6 +27,7 @@ public enum EConstants {
             bug = false;
             String nameConst = constans.name();
             if ((str.substring(0,str.length())).length() < nameConst.length()) {
+                bug = true;
                 continue;
             }
             string = str.substring(0,nameConst.length());
@@ -41,19 +40,31 @@ public enum EConstants {
 
            if (bug == false) break;
         }
-        return bug == false ? EConstants.valueOfIgnoredCase(string) : PI ;
+        return bug == false ? EConstants.valueOfIgnoredCase(string) : NO_CONST ;
 
     }
 
-
-    public double constValueReturn (String str) {
-        switch (str) {
-            case "PI":
-                return PI.constValue;
-            case "E":
-                return E.constValue;
-            default:
-                return 0;
+    public static EConstants validateConstant (String str) {
+        String resultString ="";
+        boolean bug = false;
+        for (EConstants constant: EConstants.values()) {
+            bug = false;
+            if (str.length() < constant.name().length()) {
+                bug = true;
+                continue;
+            }
+            try {
+                EConstants.valueOfIgnoredCase(str);
+            } catch (IllegalArgumentException e) {
+                bug = true;
+                continue;
+            }
+            if (bug == false) {
+                return constant;
+            }
         }
+
+        return NO_CONST;
     }
+
 }

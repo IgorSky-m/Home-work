@@ -3,10 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="216e3c35-e888-4135-a3d3-ca3666b33234" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/L4H3/edu/academy/CalculatorWIthCounterEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/L4H3/edu/academy/CalculatorWIthCounterEx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/L4H3/edu/academy/CalculatorWithMath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/L4H3/edu/academy/CalculatorWithMath.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/L4H3/edu/academy/CalculatorWithOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/L4H3/edu/academy/CalculatorWithOperator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/L4H3/edu/academy/CalculatorStringExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/L4H3/edu/academy/CalculatorStringExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/L4H3/edu/academy/EConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/L4H3/edu/academy/EConstants.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/L4H3/edu/academy/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/L4H3/edu/academy/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/academy/CalculatorStringExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/academy/CalculatorStringExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/academy/EConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/academy/EConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/academy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/academy/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +20,8 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -115,38 +116,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="572" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584731560533" />
-    <state width="1448" height="149" key="GridCell.Tab.0.bottom" timestamp="1585200144022">
+    <state width="1493" height="150" key="GridCell.Tab.0.bottom" timestamp="1585266135499">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1448" height="149" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585200144022" />
-    <state width="1448" height="149" key="GridCell.Tab.0.center" timestamp="1585200144021">
+    <state width="1493" height="150" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585266135499" />
+    <state width="1493" height="150" key="GridCell.Tab.0.center" timestamp="1585266135499">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1448" height="149" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585200144021" />
-    <state width="1448" height="149" key="GridCell.Tab.0.left" timestamp="1585200144020">
+    <state width="1493" height="150" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585266135499" />
+    <state width="1493" height="150" key="GridCell.Tab.0.left" timestamp="1585266135499">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1448" height="149" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585200144020" />
-    <state width="1448" height="149" key="GridCell.Tab.0.right" timestamp="1585200144021">
+    <state width="1493" height="150" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585266135499" />
+    <state width="1493" height="150" key="GridCell.Tab.0.right" timestamp="1585266135499">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1448" height="149" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585200144021" />
-    <state width="1448" height="260" key="GridCell.Tab.1.bottom" timestamp="1585180558951">
+    <state width="1493" height="150" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585266135499" />
+    <state width="1493" height="262" key="GridCell.Tab.1.bottom" timestamp="1585264093998">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1448" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585180558951" />
-    <state width="1448" height="260" key="GridCell.Tab.1.center" timestamp="1585180558951">
+    <state width="1493" height="262" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585264093998" />
+    <state width="1493" height="262" key="GridCell.Tab.1.center" timestamp="1585264093998">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1448" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585180558951" />
-    <state width="1448" height="260" key="GridCell.Tab.1.left" timestamp="1585180558951">
+    <state width="1493" height="262" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585264093998" />
+    <state width="1493" height="262" key="GridCell.Tab.1.left" timestamp="1585264093997">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1448" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585180558951" />
-    <state width="1448" height="260" key="GridCell.Tab.1.right" timestamp="1585180558951">
+    <state width="1493" height="262" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585264093997" />
+    <state width="1493" height="262" key="GridCell.Tab.1.right" timestamp="1585264093998">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1448" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585180558951" />
+    <state width="1493" height="262" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585264093998" />
     <state x="628" y="135" key="RollbackChangesDialog" timestamp="1584717459759">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -175,49 +176,49 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="41" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1584636317586" />
+    <state x="453" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585262969638">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="453" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585262969638" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/edu/academy/EConstants.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/edu/academy/EConstants.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/edu/academy/CalculatorStringExpression.java</url>
-          <line>15</line>
+          <line>8</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/edu/academy/ENumbers.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/edu/academy/EOperators.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/edu/academy/CalculatorStringExpression.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="27" />
+          <line>48</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/edu/academy/EConstants.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="29" />
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/edu/academy/EAlphabet.java</url>
+          <line>11</line>
+          <properties class="edu.academy.EAlphabet" method="validString">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/edu/academy/EConstants.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/edu/academy/EConstants.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/edu/academy/EConstants.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="32" />
+          <line>46</line>
+          <properties class="edu.academy.EConstants" method="validateConstant">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

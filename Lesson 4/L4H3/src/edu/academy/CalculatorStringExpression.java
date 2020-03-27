@@ -1,93 +1,109 @@
 package edu.academy;
+
+import java.util.ArrayList;
+
 public class CalculatorStringExpression extends ParentCalculator implements ICalc{
     private String inputString;
     private int operationsCounter;
 
-    private String validateString (String workingString) {
-        EConstants result;
-        String workString;
-        if (workingString.isEmpty()) return "СТРОКА ПУСТАЯ";
-        workString = workingString.trim();
-        char[] charArray = workString.toCharArray();
-        char[] knownSymbols = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '+', '-', '/', '*', '^', '(', ')'};
-        String resultString = "";
+
+
+    public double stringConversion (String inputString)  {
+        ArrayList<String> workingList = validateString(inputString); // if error - то закончить
+        double calculateResult = calculate(workingList);
+        return calculateResult;
+    }
+    private ArrayList<String> validateString (String workingString) {
+        EConstants resultConst;
+        ArrayList<String> expressionList = new ArrayList<String>();
+        ArrayList<String> errorList = new ArrayList<String>();
         boolean itsKnownSymbol = false;
-        for (int i = 0; i < charArray.length; i++) {
-            itsKnownSymbol = false;
-            for (int j = 0; j < knownSymbols.length; j++) { //это известный символ?
-                if (Character.valueOf(charArray[i]) == Character.valueOf(knownSymbols[j])) { //совпадение известных символов
-                    resultString = resultString + charArray[i];
-                    itsKnownSymbol = true;
-                    break;
-                } else if (charArray[i] == ' ') { // пробел
-                    itsKnownSymbol = true;
-                    break;
-
-                }
-            }
-
-            if (itsKnownSymbol == false) {
-                result = EConstants.validateConst(workString.substring(i, workString.length())); //Константа
-                if (result.getConstValue() != 0) {
-                    resultString = resultString + result.getConstValue();
-                    i += ((result.name()).length()) -1;
-                    itsKnownSymbol = true;
-
-                }
-            }
+        String workString, writeResult;
+        workString = workingString.trim();
+        if (workingString.isEmpty()) {
+            errorList.add("error");
+            return errorList ; // проверка на пустую строку
         }
-        if (itsKnownSymbol == false) return "ОШИБКА";
-        return resultString;
-    }
 
+        for (int i = 0; i < workString.length(); i++) {
+            if (i<workingString.length()-1) {
+            itsKnownSymbol = false;}
+            writeResult = "";
+//            for (int j = 0; j < workString.substring(i,workingString.length()-1).length(); j++) {
 
-    public String stringConversion (String inputString)  {
-        String workingString = validateString(inputString);
-        //проверка на валидность
+                //Проверка на число
+                writeResult = ENumbers.validNumber(workString.substring(i,workString.length()));
+                if (writeResult.length() > 0) {
+                    expressionList.add(writeResult);
+                    i += writeResult.length()-1;
+                    itsKnownSymbol = true;
+                    continue;
+                }
+  // Проверка на пробел
+                 if (workString.charAt(i) == ' ') {
+                    itsKnownSymbol = true;
+                    continue;
+                }
 
+  // Проверка на оператор
+                writeResult = EOperators.validSymbol(workString.substring(i,workString.length()));
+                if (writeResult.length() > 0) {
+                    expressionList.add(writeResult);
+                    itsKnownSymbol = true;
+                    continue;
+                }
 
-
-        return workingString;
-    }
-}
-
-
-//----------------------------------------------------------------
-//private double validateString (String workingString) {
-//    for (int i = 0; i <workingString.length(); i++) {
-//        boolean  itsKnownSymbol = true;
-//        int numberA, numberB;
-//        String workString = workingString.substring(operationsCounter,workingString.length()-1);
-//        for (int j = 0; j <workString.length(); j++) {
-//            switch (workString.charAt(j)) {
-//                case '1':
-//                case '2':
-//                case '3':
-//                case '4':
-//                case '5':
-//                case '6':
-//                case '7':
-//                case '8':
-//                case '9':
-//                case '0':
-//                    operationsCounter++;
-//                    itsKnownSymbol = true;
-//                    break;
-//                case '+':
-//                    operationsCounter++;
-//                    itsKnownSymbol = true;
-//                    break;
-//                case "(":
-//                    operationsCounter++;
-//                    validateString(workString);
-//                    break;
-//                default:
-//                    System.out.println("Ошибка");
-//                    break;
-//
+   // Запись строки
+                writeResult = EAlphabet.validString(workingString.substring(i,workingString.length()));
+  // проверка на константу
+                resultConst = EConstants.validateConstant(writeResult);
+                if (resultConst.getConstValue() != 0) {
+                    expressionList.add(Double.toString(resultConst.getConstValue()));
+                    i += ((resultConst.name()).length())-1; //
+                    itsKnownSymbol = true;
+                    continue;
+                }
 //            }
-//            workString = workString.substring(operationsCounter,workingString.length()-1);
-//        }
-//    }
-//    return 0;
-//}
+                if (itsKnownSymbol != true ) {
+                     errorList.add("error");
+                    return errorList;
+                 }
+
+        }
+        return expressionList;
+    }
+    private double calculate (ArrayList<String> arrayList) {
+        String workString ="";
+        int index, priority=100;
+        boolean bug = false;
+        for (int i = arrayList.size()-1; i >= 0 ; i--) {
+            bug = false;
+            try {
+                Double.parseDouble(arrayList.get(i));
+            } catch (NumberFormatException e) {
+                bug = true;
+                
+                if (priority >= EOperators.getPriorityWithSymbol(arrayList.get(i))) {
+                    index = i;
+                    priority = EOperators.getPriorityWithSymbol(arrayList.get(i));
+                    continue;
+                }
+            }
+
+
+            if (bug == false) {
+                continue;
+            }
+
+
+
+        }
+
+        return 0;
+    }
+
+
+
+
+
+}
