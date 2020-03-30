@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eff577c4-af2f-47af-bd7d-887e51bc789d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 3/L3H1/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 3/L3H1/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 3/L3H1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 3/L3H1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 3/L3H1/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 3/L3H1/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 3/L3H1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 3/L3H1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 3/L3H1/Lesson3HW.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 3/L3H1/out/production/Lesson3HW/META-INF/Lesson3HW.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 3/L3H1/out/production/Lesson3HW/edu/academy/BitwiseOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 3/L3H1/out/production/Lesson3HW/edu/academy/ChoiceMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 3/L3H1/out/production/Lesson3HW/edu/academy/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 3/L3H1/src/edu/academy/BitwiseOperation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 3/L3H1/src/edu/academy/ChoiceMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 3/L3H1/src/edu/academy/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 3/L3H2/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 3/L3H2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 3/L3H2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 3/L3H2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 3/L3H2/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 3/L3H2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 3/L3H2/L3H2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 3/L3H2/out/production/L3H2/edu/academy/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 3/L3H2/src/edu/academy/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 3/L3H3/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 3/L3H3/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 3/L3H3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 3/L3H3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 3/L3H3/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 3/L3H3/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 3/L3H3/L3H3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 3/L3H3/out/production/L3H3/edu/academy/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 3/L3H3/src/edu/academy/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H1(1 and 2)/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H1(1 and 2)/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H1(1 and 2)/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H1(1 and 2)/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H1(1 and 2)/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H1(1 and 2)/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H1(1 and 2)/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H1(1 and 2)/L4H1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H1(1 and 2)/out/production/L4H1/edu/academy/Color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H1(1 and 2)/out/production/L4H1/edu/academy/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H1(1 and 2)/src/edu/academy/Color.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H1(1 and 2)/src/edu/academy/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H3/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H3/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H3/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H3/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H3/L4H3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H3/out/production/L4H3/META-INF/L4H3.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H3/out/production/L4H3/edu/academy/CalculatorStringExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H3/out/production/L4H3/edu/academy/CalculatorWIthCounterEx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H3/out/production/L4H3/edu/academy/CalculatorWIthCounterInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H3/out/production/L4H3/edu/academy/CalculatorWithCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H3/out/production/L4H3/edu/academy/CalculatorWithMath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H3/out/production/L4H3/edu/academy/CalculatorWithOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H3/out/production/L4H3/edu/academy/EAlphabet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H3/out/production/L4H3/edu/academy/EConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H3/out/production/L4H3/edu/academy/ENumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H3/out/production/L4H3/edu/academy/EOperators.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H3/out/production/L4H3/edu/academy/ICalc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H3/out/production/L4H3/edu/academy/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H3/out/production/L4H3/edu/academy/ParentCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H3/src/edu/academy/CalculatorStringExpression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H3/src/edu/academy/CalculatorWIthCounterEx.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H3/src/edu/academy/CalculatorWIthCounterInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H3/src/edu/academy/CalculatorWithCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H3/src/edu/academy/CalculatorWithMath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H3/src/edu/academy/CalculatorWithOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H3/src/edu/academy/EAlphabet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H3/src/edu/academy/EConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H3/src/edu/academy/ENumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H3/src/edu/academy/EOperators.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H3/src/edu/academy/ICalc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H3/src/edu/academy/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 4/L4H3/src/edu/academy/ParentCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 5/Diagram/Choice sort.drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 5/Diagram/Choice sort.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 5/L5H2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 5/L5H2/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 5/L5H2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 5/L5H2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 5/L5H2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 5/L5H2/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 5/L5H2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 5/L5H2/L5H2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 5/L5H2/out/production/L5H2/edu/academy/Factorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 5/L5H2/out/production/L5H2/edu/academy/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 5/L5H2/out/production/L5H2/edu/academy/MassivesAndCycles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 5/L5H2/out/production/L5H2/edu/academy/MultTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 5/L5H2/out/production/L5H2/edu/academy/Sorts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 5/L5H2/src/edu/academy/Factorial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 5/L5H2/src/edu/academy/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 5/L5H2/src/edu/academy/MassivesAndCycles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 5/L5H2/src/edu/academy/MultTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Lesson 5/L5H2/src/edu/academy/Sorts.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="ProjectId" id="1ZkqxJrlNlYQStrlpXcC9y0ORwX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eff577c4-af2f-47af-bd7d-887e51bc789d" name="Default Changelist" comment="" />
+      <created>1585393684454</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585393684454</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="550" y="168" key="FileChooserDialogImpl" timestamp="1585393706864">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="550" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585393706864" />
+  </component>
+</project>
