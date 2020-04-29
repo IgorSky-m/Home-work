@@ -1,0 +1,100 @@
+Student{id=572949327, name='Асия', surname='Гришина', age=26, sex='F', course=2, specialization='Биохимия'}
+Student{id=326998935, name='Владислав', surname='Ушаков', age=23, sex='M', course=5, specialization='Математика и компьютерные науки'}
+Student{id=777802366, name='Жерар', surname='Фокин', age=16, sex='M', course=1, specialization='Математика и компьютерные науки'}
+Student{id=173955616, name='Мечеслав', surname='Никулин', age=16, sex='M', course=5, specialization='Физика'}
+Student{id=659212964, name='Азалия', surname='Киреева', age=25, sex='F', course=5, specialization='Гидрометеорология'}
+Student{id=728930253, name='Марк', surname='Кудряшов', age=26, sex='M', course=4, specialization='﻿География'}
+Student{id=738055476, name='Леван', surname='Яковлев', age=24, sex='M', course=3, specialization='Физика'}
+Student{id=407139049, name='Ядвига', surname='Киреева', age=19, sex='F', course=2, specialization='Биохимия'}
+Student{id=175412603, name='Мечеслав', surname='Дьяков', age=20, sex='M', course=3, specialization='Прикладная физика'}
+Student{id=403809691, name='Савелий', surname='Куприянов', age=18, sex='M', course=2, specialization='Медицинская физика'}
+Student{id=991279404, name='Адриан', surname='Белов', age=16, sex='M', course=4, specialization='Микробиология'}
+Student{id=938144797, name='Рузанна', surname='Лобанова', age=16, sex='F', course=2, specialization='Радиофизика'}
+Student{id=975323355, name='Снежана', surname='Жилина', age=27, sex='F', course=1, specialization='Гидрометеорология'}
+Student{id=405262519, name='Ираида', surname='Ефимова', age=24, sex='F', course=4, specialization='Математика и компьютерные науки'}
+Student{id=550670155, name='Клод', surname='Овчинников', age=17, sex='M', course=3, specialization='Микробиология'}
+Student{id=984984451, name='Глория', surname='Прохорова', age=19, sex='F', course=3, specialization='Математика и компьютерные науки'}
+Student{id=526750907, name='Рафаэль', surname='Агеев', age=26, sex='M', course=3, specialization='Прикладная математика и информатика'}
+Student{id=125294370, name='Филимон', surname='Кукушкин', age=19, sex='M', course=4, specialization='Гидрометеорология'}
+Student{id=616251570, name='Май', surname='Русанов', age=24, sex='M', course=5, specialization='Математика и компьютерные науки'}
+Student{id=415511352, name='Ефим', surname='Бочаров', age=23, sex='M', course=4, specialization='﻿География'}
+Student{id=635162390, name='Ленар', surname='Иванов', age=21, sex='M', course=4, specialization='Химия'}
+Student{id=347839896, name='Джемма', surname='Софронова', age=24, sex='F', course=3, specialization='Химия'}
+Student{id=800647587, name='Ильхам', surname='Зубков', age=17, sex='M', course=2, specialization='Механика и математическое моделирование'}
+Student{id=692594698, name='Нонна', surname='Игнатова', age=19, sex='F', course=5, specialization='Механика и математическое моделирование'}
+Student{id=692569271, name='Расим', surname='Русанов', age=26, sex='M', course=3, specialization='Гидрометеорология'}
+Student{id=941244270, name='Платон', surname='Туманов', age=20, sex='M', course=2, specialization='Физика'}
+Student{id=923502589, name='Кристина', surname='Елисеева', age=25, sex='F', course=1, specialization='Механика и математическое моделирование'}
+Student{id=674763663, name='Никон', surname='Новиков', age=25, sex='M', course=4, specialization='Физика'}
+Student{id=290875706, name='Булат', surname='Назаров', age=25, sex='M', course=2, specialization='Прикладная математика и информатика'}
+Student{id=491506496, name='Эля', surname='Карташова', age=22, sex='F', course=3, specialization='Микробиология'}
+Student{id=338824611, name='Градимир', surname='Суслов', age=16, sex='M', course=4, specialization='Механика и математическое моделирование'}
+Student{id=616889044, name='Айдар', surname='Миронов', age=16, sex='M', course=2, specialization='Химия'}
+Student{id=556039999, name='Нисон', surname='Кириллов', age=24, sex='M', course=4, specialization='﻿География'}
+Student{id=910954487, name='Джордан', surname='Устинов', age=21, sex='M', course=3, specialization='Химия'}
+Student{id=115522384, name='Альба', surname='Зубкова', age=19, sex='F', course=5, specialization='Прикладная математика и информатика'}
+Student{id=498798482, name='Раиса', surname='Филиппова', age=23, sex='F', course=1, specialization='Механика и математическое моделирование'}
+Student{id=732511217, name='Глория', surname='Беликова', age=18, sex='F', course=1, specialization='﻿География'}
+Student{id=111908180, name='Максуд', surname='Муравьев', age=19, sex='M', course=5, specialization='Гидрометеорология'}
+Student{id=452180793, name='Трофим', surname='Аксенов', age=26, sex='M', course=5, specialization='Прикладная физика'}
+Student{id=824854505, name='Данута', surname='Розанова', age=22, sex='F', course=1, specialization='Биохимия'}
+Student{id=958731326, name='Глеб', surname='Нестеров', age=23, sex='M', course=3, specialization='Медицинская физика'}
+Student{id=149658957, name='Хильда', surname='Кравцова', age=24, sex='F', course=5, specialization='Прикладная математика и информатика'}
+Student{id=777829931, name='Аристарх', surname='Медведев', age=25, sex='M', course=2, specialization='Механика и математическое моделирование'}
+Student{id=891169051, name='Али', surname='Пирогов', age=16, sex='M', course=2, specialization='Биохимия'}
+Student{id=169623272, name='Диодора', surname='Федосеева', age=19, sex='F', course=5, specialization='Химия'}
+Student{id=664327869, name='Анфиса', surname='Щеглова', age=21, sex='F', course=1, specialization='Механика и математическое моделирование'}
+Student{id=800357874, name='Иоланта', surname='Лукьянова', age=19, sex='F', course=3, specialization='Медицинская физика'}
+Student{id=686315978, name='Бронислав', surname='Уваров', age=22, sex='M', course=2, specialization='Физика'}
+Student{id=717872659, name='Кристина', surname='Попова', age=22, sex='F', course=5, specialization='Медицинская физика'}
+Student{id=800988780, name='Артемий', surname='Фокин', age=18, sex='M', course=1, specialization='Прикладная математика и информатика'}
+Student{id=319342607, name='Арман', surname='Сорокин', age=21, sex='M', course=3, specialization='Математика и компьютерные науки'}
+Student{id=244169997, name='Платон', surname='Бондарев', age=25, sex='M', course=5, specialization='Прикладная математика и информатика'}
+Student{id=700060507, name='Элла', surname='Малинина', age=18, sex='F', course=5, specialization='Гидрометеорология'}
+Student{id=139584961, name='Тихон', surname='Гуляев', age=18, sex='M', course=3, specialization='Гидрометеорология'}
+Student{id=892076795, name='Инесса', surname='Алешина', age=16, sex='F', course=1, specialization='Химия'}
+Student{id=790016748, name='Лира', surname='Константинова', age=24, sex='F', course=5, specialization='Математика и компьютерные науки'}
+Student{id=590221068, name='Андрэ', surname='Алехин', age=16, sex='M', course=4, specialization='Физика'}
+Student{id=226642780, name='Ефрем', surname='Маркелов', age=25, sex='M', course=2, specialization='Механика и математическое моделирование'}
+Student{id=284432039, name='Ида', surname='Дементьева', age=27, sex='F', course=4, specialization='Прикладная физика'}
+Student{id=767705812, name='Дженнифер', surname='Волкова', age=21, sex='F', course=3, specialization='Прикладная математика и информатика'}
+Student{id=472364829, name='Карен', surname='Кулагин', age=25, sex='M', course=2, specialization='Механика и математическое моделирование'}
+Student{id=101573255, name='Аделина', surname='Антипова', age=16, sex='F', course=3, specialization='Медицинская физика'}
+Student{id=247138740, name='Гоар', surname='Копылов', age=25, sex='M', course=4, specialization='Механика и математическое моделирование'}
+Student{id=373560196, name='Жозефина', surname='Гончарова', age=17, sex='F', course=3, specialization='Физика'}
+Student{id=495263863, name='Владислав', surname='Румянцев', age=18, sex='M', course=1, specialization='Прикладная физика'}
+Student{id=840332531, name='Ангелина', surname='Дементьева', age=16, sex='F', course=2, specialization='Прикладная математика и информатика'}
+Student{id=318243087, name='Милослава', surname='Березина', age=27, sex='F', course=3, specialization='Гидрометеорология'}
+Student{id=262594663, name='Никифор', surname='Свиридов', age=24, sex='M', course=4, specialization='Радиофизика'}
+Student{id=289063094, name='Тамара', surname='Русакова', age=18, sex='F', course=4, specialization='Медицинская физика'}
+Student{id=305330365, name='Самсон', surname='Жаров', age=23, sex='M', course=2, specialization='Прикладная математика и информатика'}
+Student{id=486124406, name='Амина', surname='Севастьянова', age=21, sex='F', course=5, specialization='Химия'}
+Student{id=207697627, name='Инокентий', surname='Худяков', age=21, sex='M', course=5, specialization='Физика'}
+Student{id=593292170, name='Амира', surname='Петровскийа', age=23, sex='F', course=5, specialization='﻿География'}
+Student{id=221214281, name='Зарина', surname='Авдеева', age=26, sex='F', course=4, specialization='Прикладная математика и информатика'}
+Student{id=148382157, name='Искра', surname='Лосева', age=23, sex='F', course=4, specialization='﻿География'}
+Student{id=859084774, name='Георгий', surname='Панов', age=17, sex='M', course=3, specialization='﻿География'}
+Student{id=123166603, name='Тимофей', surname='Голиков', age=19, sex='M', course=3, specialization='Прикладная физика'}
+Student{id=440559226, name='Мальвина', surname='Павлова', age=23, sex='F', course=3, specialization='Прикладная физика'}
+Student{id=608840363, name='Мариан', surname='Субботин', age=17, sex='M', course=4, specialization='Физика'}
+Student{id=512737798, name='Ревекка', surname='Медведева', age=16, sex='F', course=1, specialization='Гидрометеорология'}
+Student{id=226970141, name='Фанис', surname='Евсеев', age=16, sex='M', course=1, specialization='Медицинская физика'}
+Student{id=540911712, name='Самуил', surname='Старостин', age=25, sex='M', course=1, specialization='Гидрометеорология'}
+Student{id=823799033, name='Аглая', surname='Самсонова', age=20, sex='F', course=1, specialization='Природоохранная деятельность'}
+Student{id=557384358, name='Джереми', surname='Кочергин', age=19, sex='M', course=4, specialization='Математика и компьютерные науки'}
+Student{id=357735981, name='Неонила', surname='Григорьева', age=17, sex='F', course=3, specialization='Природоохранная деятельность'}
+Student{id=351871423, name='Эдда', surname='Булгакова', age=24, sex='F', course=4, specialization='Математика и компьютерные науки'}
+Student{id=754433502, name='Нателла', surname='Сухарева', age=21, sex='F', course=3, specialization='﻿География'}
+Student{id=911741085, name='Анжела', surname='Кукушкина', age=19, sex='F', course=1, specialization='Природоохранная деятельность'}
+Student{id=623704423, name='Дженнифер', surname='Овчинникова', age=24, sex='F', course=1, specialization='Медицинская физика'}
+Student{id=825190799, name='Юния', surname='Большакова', age=17, sex='F', course=1, specialization='Медицинская физика'}
+Student{id=620363100, name='Наима', surname='Корчагина', age=24, sex='F', course=4, specialization='Физика'}
+Student{id=984214479, name='Аглая', surname='Терехова', age=17, sex='F', course=5, specialization='Медицинская физика'}
+Student{id=336191767, name='Тарас', surname='Латышев', age=22, sex='M', course=1, specialization='Механика и математическое моделирование'}
+Student{id=790256348, name='Юлий', surname='Ежов', age=20, sex='M', course=3, specialization='Прикладная физика'}
+Student{id=911072944, name='Боголюб', surname='Баранов', age=20, sex='M', course=5, specialization='Радиофизика'}
+Student{id=586015032, name='Василина', surname='Трифонова', age=20, sex='F', course=5, specialization='Химия'}
+Student{id=769768756, name='Натан', surname='Одинцов', age=26, sex='M', course=3, specialization='Биохимия'}
+Student{id=113753997, name='Тигрий', surname='Новиков', age=22, sex='M', course=2, specialization='Медицинская физика'}
+Student{id=713551448, name='Арабелла', surname='Зубова', age=16, sex='F', course=4, specialization='﻿География'}
+Student{id=650374243, name='Ким', surname='Беляков', age=17, sex='M', course=2, specialization='Биохимия'}
