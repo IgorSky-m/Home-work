@@ -1,6 +1,6 @@
 package edu.academy;
 
-public class EasySearch implements ISearchEngine {
+public class EasySearchTrash implements ISearchEngine {
 
     @Override
     public int searchStringInText(String searchString, String text) {

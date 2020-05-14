@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class EasySearch2  implements ISearchEngine{
+public class EasySearchIndexOf implements ISearchEngine{
 
     @Override
     public int searchStringInText(String searchString, String text) {
@@ -14,7 +14,7 @@ public class EasySearch2  implements ISearchEngine{
         int counter=0;
         wordsArray = Arrays.asList(text.split("[ ,.!?:;-]+|\""));
         for (int i = 0; i <wordsArray.size() ; i++) {
-            if (wordsArray.get(i).equals(searchString)) {
+            if (wordsArray.get(i).indexOf(searchString) > -1) {
                 counter ++;
             }
         }
